@@ -1,0 +1,18 @@
+General Commands Manual
+
+NAME
+    cp -- copy
+    
+USAGE
+    cp source_file target_file
+    cp source_file_or_dir_1 [source_file_or_dir_2] [...] target_directory 
+    cp source_directory target_directory
+
+DESCRIPTION
+    The "cp" command can copy an old file to a new file, copy one or more old 
+    files or the contents of directories into a new directory, or copy the 
+    contents of an old directory to a new directory.
+    The old files and old directory are left alone.
+    If the first and third form of the command is used, and an existing file 
+    or directory is specified as the target directory, the user will be asked
+    to confirm if they want to overwrite it.

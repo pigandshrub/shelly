@@ -1,0 +1,11 @@
+General Commands Manual
+
+NAME
+    pwd -- print working directory
+    
+USAGE
+    pwd 
+
+DESCRIPTION
+    The "pwd" command prints the current working directory's full path starting
+    at the root of the entire file system.

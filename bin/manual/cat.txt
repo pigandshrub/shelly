@@ -1,0 +1,15 @@
+General Commands Manual
+
+NAME
+    cat -- capture content
+    
+USAGE
+    cat file_path_1 [file_path_2] [...] 
+
+DESCRIPTION
+    The "cat" command accepts file pathnames and prints out the contents of
+    those files.
+    This command requires at least one pathname to a file. Multiple pathnames 
+    can be provided.
+    If the path leads to a directory, an error message will be generated. 
+     

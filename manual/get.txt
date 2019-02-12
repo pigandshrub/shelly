@@ -1,0 +1,12 @@
+General Commands Manual
+
+NAME
+    get -- get URL
+    
+USAGE
+    get URL 
+
+DESCRIPTION
+    The "get" command retrieves a file specified by given URL, and adds it to
+    the current directory.
+ 

@@ -1,0 +1,10 @@
+General Commands Manual
+
+NAME
+    exit -- exit the shell
+    
+USAGE
+    exit
+
+DESCRIPTION
+    Ends and exits the Shelly program.

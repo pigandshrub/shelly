@@ -1,0 +1,12 @@
+General Commands Manual
+
+NAME
+    rm -- remove
+    
+USAGE
+    rm file_path_1 [...]
+    rm -R dir_path_1 [...]
+
+DESCRIPTION
+    The "rm" command removes existing files. It removes directories as well 
+    if the option -R is provided. 

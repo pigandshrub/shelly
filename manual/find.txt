@@ -1,0 +1,12 @@
+General Commands Manual
+
+NAME
+    find -- find REGEX 
+    
+USAGE
+    find REGEX [...]
+
+DESCRIPTION
+    The "find" command evaluates one or more regular expressions and prints a
+    list of existing directory and file pathnames found in the current directory
+    that match the given expressions.

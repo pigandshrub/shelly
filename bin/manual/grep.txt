@@ -1,0 +1,14 @@
+General Commands Manual
+
+NAME
+    grep -- file pattern searcher
+    
+USAGE
+    grep "string1 [...]" filename1 [...]
+    grep -R "string1 [...]" directory1 [...]
+
+DESCRIPTION
+    The "grep" command searches given files and directories for lines containing 
+    a match to the given strings or words. The matching lines are printed to 
+    output.
+    

@@ -1,0 +1,31 @@
+General Commands Manual
+
+NAME
+    man -- manual
+    
+USAGE
+    man
+    man command 
+
+DESCRIPTION
+    The "man" command by itself summarizes the available commands you can run 
+    in this shell program.  See the list of commands below. 
+    For more details about each command, type "man" followed 
+    by the command, and then enter.
+    
+    ~ Command List ~
+    cat -- capture content
+    cd -- change directory
+    cp -- copy files or directories to another file or directory
+    echo -- print string to an existing or new file
+    exit -- exit the shell program
+    find -- print a list of existing directories and files in the current path that match a given regular expression
+    get -- retrieve the contents of a file specified by a given URL and add the file to the current directory
+    grep -- search given files and directories for lines containing a match to a given string
+    ls -- list the directories and files in the current directory
+    man -- manual that can be used to retrieve a description of the available commands
+    mkdir -- create one or more directories within the current directory
+    mv -- move files or directories to another file or directory
+    pwd -- print working directory
+    rm -- remove existing files or directories
+    

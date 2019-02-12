@@ -1,0 +1,31 @@
+General Commands Manual
+
+NAME
+    man -- manual
+    
+USAGE
+    man
+    man command 
+
+DESCRIPTION
+    The "man" command by itself summarizes the available commands you can run 
+    in this terminal shell.  See the list of commands below. 
+    For more details about each command, type "man" followed 
+    by the command, and then enter.
+    
+    ~ Command List ~
+    cat -- capture content
+    cd -- change directory
+    cp -- copy
+    echo
+    exit -- exit the shell
+    find -- find REGEX 
+    get -- get URL
+    grep -- file pattern searcher
+    ls -- list directories and files
+    man -- manual
+    mkdir -- make directory
+    mv -- move
+    pwd -- print working directory
+    rm -- remove
+    

@@ -1,0 +1,17 @@
+General Commands Manual
+
+NAME
+    ls -- list directories and files
+    
+USAGE
+    ls [directory_or_file_path 1] [directory_or_file_path_2] [...] 
+
+DESCRIPTION
+    Typed by itself, ls will print the names of files and directories in the 
+    current directory.
+    ls can be followed by one or more pathnames, each separated by a space. Each 
+    input argument can either be a current or full pathname of an existing file 
+    or directory.
+    If a file is specified, its name will be printed to the output.
+    If a directory is specified, the names of the files and directories in that
+    directory will be printed.

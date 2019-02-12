@@ -1,0 +1,14 @@
+General Commands Manual
+
+NAME
+    mkdir -- make directory
+    
+USAGE
+    mkdir directory_or_file_path_1 [directory_or_file_path_2] [...] 
+
+DESCRIPTION
+    mkdir requires at least one path or name argument to make paths 
+    or directories, respectively.
+    If a path or directory already exists, it will output an error message 
+    and not produce the duplicate path or directory.
+    

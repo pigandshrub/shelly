@@ -1,0 +1,15 @@
+General Commands Manual
+
+NAME
+    cd -- change directory
+    
+USAGE
+    cd
+    cd directory_path 
+
+DESCRIPTION
+    Typed by itself, cd will move the user back to the root directory path, "/".
+    If cd is followed by a current directory pathname or full directory 
+    pathname, the user will be moved to the directory designated by this path.
+    If cd is followed by a file name, the user will be advised that they have 
+    not provided a directory, and the user stays at the current directory. 

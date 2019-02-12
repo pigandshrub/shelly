@@ -1,0 +1,30 @@
+General Commands Manual
+
+NAME
+    echo
+    
+USAGE
+    echo [string1] [...]
+    echo [string1] [...] > file_path 
+    echo [string1] [...] >> file_path 
+
+DESCRIPTION
+    The "echo" command can do one of two things:
+    1) Print out a given string on the next line.
+    2) Append a string to a file.
+    If the file does not exist, a new file will be created at the given path 
+    before appending the string to it.
+    If the file already exists, depending on which form of echo is used, the 
+    file's existing content will either be fully erased or left alone before 
+    the string is appended.
+    
+    The first form of echo will print a given string to output, or a blank line 
+    if no string is provided.
+    The second form (">") will erase the file's existing content and replace its
+    content with the string.
+    The third form (">>") will append the string to the file's existing content.
+    Both the second and third form of echo will create a new file if a given
+    file pathname does not exist.
+    All forms of echo can accept multiple string arguments but only one file
+    path. 
+     

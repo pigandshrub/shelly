@@ -1,0 +1,18 @@
+General Commands Manual
+
+NAME
+    mv -- move
+    
+USAGE
+    mv source_file target_file
+    mv source_file_or_dir_1 [source_file_or_dir_2] [...] target_directory 
+    mv source_directory target_directory
+
+DESCRIPTION
+    The "mv" command moves an old file to a new file, moves one or more old 
+    files or directories into a new directory, or moves an old directory into a 
+    new directory.
+    The old files and old directory are deleted.
+    If the first and third form of the command is used, and an existing file 
+    or directory is specified as the target directory, the user will be asked
+    to confirm if they want to overwrite it.
